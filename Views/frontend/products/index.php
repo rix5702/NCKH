@@ -1,0 +1,1 @@
+<h1>view index product</h1>

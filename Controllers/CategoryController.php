@@ -1,12 +1,13 @@
 <?php
-class UserController
+class CategoryController extends BaseController
 {
     public function index()
     {
-        echo __METHOD__;
+        return $this->view('frontend.categories.index');
     }
     public function show()
     {
         echo __METHOD__;
     }
+    
 }
